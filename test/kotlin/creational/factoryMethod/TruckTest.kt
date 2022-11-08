@@ -10,7 +10,7 @@ internal class TruckTest {
 
     @org.junit.jupiter.api.Test
     fun getDeliveryPlan() {
-        val expected = "Containe: TANK | Transport: LAND";
+        val expected = "Container: TANK | Transport: LAND";
         assertEquals(expected, testTruck.getDeliveryPlan());
     }
 }
