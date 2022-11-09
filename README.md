@@ -3,7 +3,6 @@
 ![](https://img.shields.io/badge/language-kotlin-blue)
 ![](https://img.shields.io/github/stars/mangasf/design-patterns-kotlin)
 ![Build Status](https://github.com/mangasf/design-patterns-kotlin/actions/workflows/ci.yml/badge.svg)
-[![Build Status](https://github.com/mangasf/design-patterns-kotlin/workflows/CI/badge.svg)](https://github.com/mangasf/design-patterns-kotlin/actions)
 
 This is a collection of known design patterns and some sample codes on how to
 implement them in PHP.
