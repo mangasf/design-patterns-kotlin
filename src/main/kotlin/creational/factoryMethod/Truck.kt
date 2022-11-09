@@ -3,8 +3,8 @@ package creational.factoryMethod
 import creational.factoryMethod.enums.Container
 import creational.factoryMethod.enums.Transport
 import creational.factoryMethod.factory.Vehicle
-import java.time.Duration
 import java.time.LocalDate
+import java.time.temporal.ChronoUnit
 
 class Truck(
     var id: Int,
@@ -13,8 +13,8 @@ class Truck(
     var transport: Transport
 ) : Vehicle {
 
-    override fun daysToNextTechnicalReview(): String {
-        return Duration.between(last_review.plusMonths(48), last_review).toString()
+    override fun daysToNextTechnicalReview(): Int {
+        return ChronoUnit.DAYS.between(last_review, last_review.plusMonths(48)).toInt()
     }
 
     override fun deliveryPlan(): String {
