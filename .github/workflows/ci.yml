@@ -1,4 +1,4 @@
-name: Kotlin Design Patterns
+name: CI
 
 on:
   push:
