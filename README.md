@@ -21,5 +21,3 @@ The patterns can be structured in roughly three different categories.
 ### Structural
 
 ### Behavioral
-
-
