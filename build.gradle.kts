@@ -12,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.json:json:20220924")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.0")
 }
