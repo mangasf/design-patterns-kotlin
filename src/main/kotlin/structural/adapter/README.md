@@ -1,19 +1,18 @@
-# Adapter
+# Adapter 🔌
 
 ```text
-Tenemos una aplicación que obtiene de una API externa información sobre el estado
-metereológico de una ciudad a partir de su nombre.
+We have an application that obtains information about the state from an external API
+meteorology of a city from its name.
 
-Esta API nos reporta en formato JSON la siguiente información:
+This API reports the following information in JSON format:
 
-- ID de la ciudad
-- Velocidad del viento
-- Estado del tiempo
+- City ID
+- Wind Speed
+- Weather State
 
-Nuestra aplicación trabaja con una aplicación frontal que permite mostrar al 
-usuario los resultados de la consulta en formato JSON.
+This information in JSON format is consumed by various clients.
 
-Ademas integramos información con una herramienta de visualización de datos.
-Esta herramienta puede realizar consultas a nuestra aplicación y recibe la
-información en formato XML.
+We also integrate information with a data visualization tool.
+This tool can make queries to our application and receives the
+information in XML format.
 ```
