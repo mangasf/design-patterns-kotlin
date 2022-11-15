@@ -1,10 +1,12 @@
-package structural.adapter
+package structural.adapter.api
 
 import org.json.JSONObject
+import structural.adapter.repository.PredictionRepository
 
-class WeatherAPI {
+class WeatherAPI: PredictionRepository {
 
-    fun getWeatherByCity(cityName: String): String {
+    override
+    fun getPredictionsByCity(cityName: String): JSONObject {
 
         val madridInfo = mutableMapOf(
             Pair("CityID", 12),
@@ -23,6 +25,6 @@ class WeatherAPI {
             Pair("Barcelona", barcelonaInfo)
         )
 
-        return JSONObject(cities[cityName]).toString()
+        return JSONObject(cities[cityName])
     }
 }
