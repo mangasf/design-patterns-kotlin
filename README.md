@@ -5,7 +5,7 @@
 ![Build Status](https://github.com/mangasf/design-patterns-kotlin/actions/workflows/ci.yml/badge.svg)
 
 This is a collection of known design patterns and some sample codes on how to
-implement them in PHP.
+implement them in Kotlin.
 
 I think the problem with patterns is that often people do know them but don't
 know when to apply which.
